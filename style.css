@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+#productList {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    overflow-y: auto; 
+}
+.user {
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.user h2, .user p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
